@@ -1,0 +1,40 @@
+﻿/* COMPONENTES */
+.div_ubicacion {
+    position:fixed;
+    width:150px;
+    min-height:50px;
+    background-color: #202125;
+    border-radius: 15px;
+    padding:10px;
+    text-align: center;
+}
+.div_ubicacion .tabla{
+    width: 50px!important;
+    margin-left:auto; 
+    margin-right:auto;
+}
+.div_camion {
+    position: fixed;
+    width: 150px;
+    z-index:5;
+}
+.div_patio_madera {
+    position:fixed;
+    width:160px;
+    height:180px;
+    text-align:center;
+    background-image: url(../img/patio_madera_300.png);
+    background-size:contain;                 
+    background-repeat:no-repeat;
+    background-position:center center;   
+}
+.div_picado_directo {
+    position:fixed;
+    width:160px;
+    height:190px;
+    text-align:center;
+    background-image: url(../img/pila_300.png);
+    background-repeat:no-repeat;
+    background-size:contain;        
+    background-position:center center;   
+}

@@ -1,0 +1,128 @@
+﻿@font-face {
+    font-family: 'aauxpro_italic';
+    src: url('../fonts/aauxprootmediumitalicosf-webfont.eot');
+    src: url('../fonts/aauxprootmediumitalicosf-webfont.eot?#iefix') format('embedded-opentype'), 
+            url('../fonts/aauxprootmediumitalicosf-webfont.woff2') format('woff2'), 
+            url('../fonts/aauxprootmediumitalicosf-webfont.woff') format('woff'), 
+            url('../fonts/aauxprootmediumitalicosf-webfont.ttf') format('truetype'), 
+            url('../fonts/aauxprootmediumitalicosf-webfont.svg#aauxpro_ot_mediumitaliMdItosf') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aauxpro_regular';
+    src: url('../fonts/aauxprootregular-webfont.eot');
+    src: url('../fonts/aauxprootregular-webfont.eot?#iefix') format('embedded-opentype'), 
+            url('../fonts/aauxprootregular-webfont.woff2') format('woff2'), 
+            url('../fonts/aauxprootregular-webfont.woff') format('woff'), 
+            url('../fonts/aauxprootregular-webfont.ttf') format('truetype'), 
+            url('../fonts/aauxprootregular-webfont.svg#aauxpro_ot_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aauxpro_bold';
+    src: url('../fonts/aauxprootbold-webfont.eot');
+    src: url('../fonts/aauxprootbold-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('../fonts/aauxprootbold-webfont.woff2') format('woff2'), 
+        url('../fonts/aauxprootbold-webfont.woff') format('woff'), 
+        url('../fonts/aauxprootbold-webfont.ttf') format('truetype'), 
+        url('../fonts/aauxprootbold-webfont.svg#aauxpro_ot_boldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aauxpro_thin';
+    src: url('../fonts/aauxprootthin-webfont.eot');
+    src: url('../fonts/aauxprootthin-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('../fonts/aauxprootthin-webfont.woff2') format('woff2'), 
+        url('../fonts/aauxprootthin-webfont.woff') format('woff'), 
+        url('../fonts/aauxprootthin-webfont.ttf') format('truetype'), 
+        url('../fonts/aauxprootthin-webfont.svg#aauxpro_ot_thinthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    background-color: #16171b;
+    font-family: aauxpro_regular;
+}
+
+/* PARTE SUPERIOR */
+.bloque_cabeza {
+    width: 1220px;
+    height: 45px;
+    background-color: #202125;
+}
+.logo{
+    width:200px;
+    position:relative;
+    float:left;
+    margin-left:20px;
+    padding-top:15px;
+}
+.negocio {
+    width: 210px;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    text-align: right;
+    padding-top:8px;
+}
+
+/* PARTE CONTENIDO */
+.bloque_cuerpo {
+    width: 1200px;
+    height: 600px;
+    padding: 14px;
+    background-image: url(../img/bg_flujo.png);
+    background-repeat: no-repeat;
+}
+
+/* PARTE PIE*/
+
+/* TEXTOS */
+p{
+    margin:0px!important;
+}
+.titulo1 {
+    font-family: aauxpro_thin;
+    font-size: 18px;
+    color: #ffffff;
+}
+.titulo2 {
+    font-family: aauxpro_regular;
+    font-size: 18px;
+    color: #ffffff;
+}
+.titulo3 {
+    font-family: aauxpro_bold;
+    font-size: 25px;
+    color: #ffffff;
+}
+.titulo4 {
+    font-family: aauxpro_regular;
+    font-size: 12px;
+    color: #67686c;
+}
+.titulo5 {
+    font-family: aauxpro_regular;
+    font-size: 18px;
+}
+.blanco {
+    color: #ffffff;
+}
+.verde {
+    color: #00b175;
+}
+.rojo {
+    color: #be4441;
+}
+/* DECORACIONES */
+.div_borde_inferior {
+    border-bottom: 1px solid #2b2c30;
+}
