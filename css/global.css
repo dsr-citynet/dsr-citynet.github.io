@@ -122,6 +122,9 @@ p{
 .rojo {
     color: #be4441;
 }
+.naranjo{
+    color: #ff6600;
+}
 /* DECORACIONES */
 .div_borde_inferior {
     border-bottom: 1px solid #2b2c30;

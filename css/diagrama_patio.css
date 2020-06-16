@@ -18,6 +18,11 @@
     width: 150px;
     z-index:5;
 }
+.div_camion .tabla{
+    position: relative;
+    left: 15px;
+    z-index: 6;
+}
 .div_patio_madera {
     position:fixed;
     width:160px;
