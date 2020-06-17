@@ -1,32 +1,47 @@
 ﻿/* COMPONENTES */
 .div_ubicacion {
     position:fixed;
-    width:150px;
-    min-height:50px;
+    width:120px;
+    min-height:30px;
     background-color: #202125;
     border-radius: 15px;
     padding:10px;
     text-align: center;
 }
-.div_ubicacion .tabla{
-    width: 50px!important;
-    margin-left:auto; 
-    margin-right:auto;
+.div_valor{
+    position:fixed;
+    min-width: 60px;
+    min-height:30px;
+    background-color: #202125;
+    border-radius: 5px;
+    padding:5px;
+    text-align: center;
 }
 .div_camion {
     position: fixed;
-    width: 150px;
+    width: 80px;
+    height: 120px;
     z-index:5;
+    text-align: center;
+    background-image: url(../img/truck.png);
+    background-size:contain;                 
+    background-repeat:no-repeat;
+    background-position:center 40px;  
 }
 .div_camion .tabla{
+    border-spacing: 0px;
     position: relative;
-    left: 15px;
+    margin: 0 auto; 
     z-index: 6;
+}
+.div_camion .patente{
+    position: relative;
+    top: 70px;
 }
 .div_patio_madera {
     position:fixed;
     width:160px;
-    height:180px;
+    height:160px;
     text-align:center;
     background-image: url(../img/patio_madera_300.png);
     background-size:contain;                 
@@ -36,7 +51,7 @@
 .div_picado_directo {
     position:fixed;
     width:160px;
-    height:190px;
+    height:160px;
     text-align:center;
     background-image: url(../img/pila_300.png);
     background-repeat:no-repeat;

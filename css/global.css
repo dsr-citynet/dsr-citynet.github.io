@@ -59,14 +59,14 @@ body {
     background-color: #202125;
 }
 .logo{
-    width:200px;
+    width:300px;
     position:relative;
     float:left;
     margin-left:20px;
     padding-top:15px;
 }
-.negocio {
-    width: 210px;
+.titulo_cabeza {
+    width: 250px;
     position: relative;
     float: right;
     margin-right: 10px;
@@ -79,11 +79,17 @@ body {
     width: 1200px;
     height: 600px;
     padding: 14px;
-    background-image: url(../img/bg_flujo.png);
+    background-image: url(../img/bg_flujo.svg);
     background-repeat: no-repeat;
 }
 
 /* PARTE PIE*/
+.bloque_pie {
+    width: 1220px;
+    padding: 10px;
+    background-color: #202125;
+    text-align: center;
+}
 
 /* TEXTOS */
 p{
@@ -106,12 +112,14 @@ p{
 }
 .titulo4 {
     font-family: aauxpro_regular;
-    font-size: 12px;
-    color: #67686c;
+    font-size: 13px;
 }
 .titulo5 {
     font-family: aauxpro_regular;
     font-size: 18px;
+}
+.bold{
+    font-weight: bold;
 }
 .blanco {
     color: #ffffff;
@@ -125,7 +133,10 @@ p{
 .naranjo{
     color: #ff8400;
 }
+.gris{
+    color: #67686c;
+}
 /* DECORACIONES */
-.div_borde_inferior {
+.borde_inferior {
     border-bottom: 1px solid #2b2c30;
 }
