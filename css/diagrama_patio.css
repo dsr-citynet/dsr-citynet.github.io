@@ -17,6 +17,15 @@
     padding:5px;
     text-align: center;
 }
+.div_valor_pm{
+    position:fixed;
+    min-width: 60px;
+    min-height:30px;
+    background-color: #08ad75;
+    border-radius: 5px;
+    padding:5px;
+    text-align: center;
+}
 .div_camion {
     position: fixed;
     width: 80px;

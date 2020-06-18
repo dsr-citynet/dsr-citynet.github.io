@@ -86,9 +86,10 @@ body {
 /* PARTE PIE*/
 .bloque_pie {
     width: 1220px;
-    padding: 10px;
     background-color: #202125;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* TEXTOS */
