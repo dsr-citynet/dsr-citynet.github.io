@@ -56,7 +56,7 @@ body {
 .bloque_cabeza {
     width: 1220px;
     height: 45px;
-    background-color: #202125;
+    /* background-color: #202125; */
 }
 .logo{
     width:300px;
@@ -75,18 +75,28 @@ body {
 }
 
 /* PARTE CONTENIDO */
-.bloque_cuerpo {
-    width: 1200px;
+.bloque_indicadores{
+    position: relative;
+    float: left;
+    width: 150px;
     height: 600px;
-    padding: 14px;
+    background-color: #202125;
+}
+.bloque_cuerpo {
+    width: 1100px;
+    height: 600px;
+    float: left;
+    position: relative;
     background-image: url(../img/bg_flujo.svg);
     background-repeat: no-repeat;
 }
 
 /* PARTE PIE*/
 .bloque_pie {
+    position: relative;
     width: 1220px;
-    background-color: #202125;
+    float: left;
+    /* background-color: #202125; */
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -119,6 +129,10 @@ p{
     font-family: aauxpro_regular;
     font-size: 18px;
 }
+.titulo6 {
+    font-family: aauxpro_bold;
+    font-size: 30px;
+}
 .bold{
     font-weight: bold;
 }
@@ -140,4 +154,5 @@ p{
 /* DECORACIONES */
 .borde_inferior {
     border-bottom: 1px solid #2b2c30;
+    padding-bottom: 5px;
 }

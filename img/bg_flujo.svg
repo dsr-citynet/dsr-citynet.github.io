@@ -9,20 +9,23 @@
 	.st3{fill:#08AD75;}
 </style>
 <g>
-	<polyline class="st0" points="45,62 32,62 32,280 45,280 	"/>
-	<polygon class="st1" points="57,53 45,62 57,71 	"/>
-	<polygon class="st1" points="43.5,271 58.5,280 43.5,289 	"/>
+	<polyline class="st0" points="40,48.1 27,48.1 27,312.6 40,312.6 	"/>
+	<polygon class="st1" points="40,304.6 51.8,312.8 40,321 	"/>
+	<polygon class="st1" points="49.4,39.4 37.4,48.1 49.4,56.9 	"/>
 </g>
 <g>
-	<polyline class="st0" points="44.8,298 31.8,298 31.8,516 44.8,516 	"/>
-	<polygon class="st1" points="56.8,289 44.8,298 56.8,307 	"/>
-	<polygon class="st1" points="43.2,507 58.2,516 43.2,525 	"/>
+	<polyline class="st0" points="39.8,325.6 26.8,325.6 26.8,607.3 39.8,607.3 	"/>
+	<polygon class="st1" points="51.8,316.9 39.8,325.7 51.8,334.4 	"/>
+	<polygon class="st1" points="38.2,598.5 53.2,607.3 38.2,616 	"/>
 </g>
-<polyline class="st2" points="229,516 1189,516 1189,458 "/>
-<polyline class="st2" points="495,516 495,196 1051,196 "/>
-<line class="st2" x1="1189" y1="394" x2="1189" y2="241"/>
-<polygon class="st3" points="214,507 229,516 214,525 "/>
-<polygon class="st3" points="1180,458 1189,443 1198,458 "/>
-<polygon class="st3" points="1043.5,187 1058.5,196 1043.5,205 "/>
-<polygon class="st3" points="1197.6,384.7 1188.6,399.7 1179.6,384.7 "/>
+<line class="st2" x1="226" y1="607" x2="495" y2="606.9"/>
+<polyline class="st2" points="495,606.9 495,187 1051,187 "/>
+<line class="st2" x1="1105.4" y1="313.6" x2="1105.4" y2="217.9"/>
+<polygon class="st3" points="211,598 226,607 211,616 "/>
+<polygon class="st3" points="1044.5,406.3 1058.5,415.3 1044.5,424.3 "/>
+<polygon class="st3" points="1043.5,178 1058.5,187 1043.5,196 "/>
+<polygon class="st3" points="1114.4,313.6 1105.4,328.6 1096.4,313.6 "/>
+<line class="st2" x1="495" y1="415.5" x2="1051" y2="415.3"/>
+<line class="st2" x1="1105.4" y1="535.7" x2="1105.4" y2="440.1"/>
+<polygon class="st3" points="1114.4,535.7 1105.4,550.7 1096.4,535.7 "/>
 </svg>

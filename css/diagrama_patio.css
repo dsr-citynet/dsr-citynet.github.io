@@ -1,6 +1,6 @@
 ﻿/* COMPONENTES */
 .div_ubicacion {
-    position:fixed;
+    position: absolute;;
     width:120px;
     min-height:30px;
     background-color: #c45a03;
@@ -9,7 +9,7 @@
     text-align: center;
 }
 .div_valor{
-    position:fixed;
+    position:absolute;
     min-width: 60px;
     min-height:30px;
     background-color: #202125;
@@ -18,7 +18,7 @@
     text-align: center;
 }
 .div_valor_pm{
-    position:fixed;
+    position:absolute;
     min-width: 60px;
     min-height:30px;
     background-color: #08ad75;
@@ -27,17 +27,18 @@
     text-align: center;
 }
 .div_camion {
-    position: fixed;
+    position: absolute;
     width: 80px;
-    height: 120px;
+    height: 100px;
     z-index:5;
     text-align: center;
     background-image: url(../img/truck.png);
     background-size:contain;                 
     background-repeat:no-repeat;
     background-position:center 40px;  
+    background-size: 50px 50px;
 }
-.div_camion .tabla{
+.tabla{
     border-spacing: 0px;
     position: relative;
     margin: 0 auto; 
@@ -45,25 +46,47 @@
 }
 .div_camion .patente{
     position: relative;
-    top: 70px;
+    top: 45px;
 }
 .div_patio_madera {
-    position:fixed;
+    position:absolute;
     width:160px;
-    height:160px;
+    height:120px;
     text-align:center;
     background-image: url(../img/patio_madera_300.png);
     background-size:contain;                 
     background-repeat:no-repeat;
-    background-position:center center;   
+    background-position:center center;  
+    background-size: 100px 100px; 
 }
-.div_picado_directo {
-    position:fixed;
+.div_astillador {
+    position:absolute;
     width:160px;
-    height:160px;
+    height:120px;
     text-align:center;
-    background-image: url(../img/pila_300.png);
+    background-image: url(../img/sawdust.svg);
     background-repeat:no-repeat;
     background-size:contain;        
-    background-position:center center;   
+    background-position:center center;  
+    background-size: 70px 70px; 
+}
+.div_pila_astillas {
+    position:absolute;
+    width:160px;
+    height:120px;
+    text-align:center;
+    background-image: url(../img/Pilas.svg);
+    background-repeat:no-repeat;
+    background-size:contain;        
+    background-position:center center;  
+    background-size: 100px 100px; 
+}
+.div_indicador{
+    position: relative;
+    width: 70%;
+    background-color: #16171b;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
 }
